@@ -67,7 +67,7 @@ Open the Pocketbase Settings and paste the following schema in "Import collectio
 3. Start using the template.
 4. Create an .env file in the root folder with the following content: 
 ```
-PUBLIC_POCKETBASE="http://127.0.0.1:8090
+PUBLIC_POCKETBASE="http://127.0.0.1:8090"
 ```
 5. npm i
 6. npm run dev and enjoy ;)
