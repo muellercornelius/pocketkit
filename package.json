@@ -31,7 +31,7 @@
 	},
 	"type": "module",
 	"dependencies": {
-		"daisyui": "^2.51.6",
+		"daisyui": "^2.52.0",
 		"lucide-svelte": "^0.221.0",
 		"pocketbase": "^0.15.0",
 		"svelte-french-toast": "^1.0.3",
