@@ -3,17 +3,18 @@
 Pocketkit is a simple [SvelteKit](https://kit.svelte.dev/) starter template to get quickly up and running with [PocketBase](https://pocketbase.io/). It has all neccessary auth features without being complicated or bloated.
 
 ### Features:
+- Full Auth Functionality (Password forgot, Password/E-Mail Change, Login, Register...)
+- OAuth2 with all PocketBase Providers
 - Tailwind CSS with DaisyUi
 - Svelte French Toast for displaying Toast Notifications
 - Lucide Icons
 
 ## Get Started
 
-1. Start using the template.
-2. Download Pocketbase [here](https://pocketbase.io/docs/) and serve it.
-4. Import collections in PocketBase
+1. Download Pocketbase [here](https://pocketbase.io/docs/) and serve it.
+2. Import collections in PocketBase
 
-Go into the Pocketbase Settings and paste the following schema in "Import collections".
+Open the Pocketbase Settings and paste the following schema in "Import collections".
 ```
 [
     {
@@ -63,11 +64,15 @@ Go into the Pocketbase Settings and paste the following schema in "Import collec
 ]
 ```
 
-5. Create an .env file in the root folder with the following content: 
+3. Start using the template.
+4. Create an .env file in the root folder with the following content: 
 ```
 PUBLIC_POCKETBASE="http://127.0.0.1:8090
 ```
-6. npm i
-7. npm run dev and enjoy ;)
+5. npm i
+6. npm run dev and enjoy ;)
+
+## OAuth2
+Pocketkit is ready for OAuth2. Simply configure the OAuth Providers you want to use in the PocketBase Dashboard and it will show up in the Login UI.
 
 
