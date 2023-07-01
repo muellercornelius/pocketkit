@@ -33,7 +33,7 @@
 	"dependencies": {
 		"daisyui": "^2.52.0",
 		"lucide-svelte": "^0.233.0",
-		"pocketbase": "^0.15.0",
+		"pocketbase": "^0.15.2",
 		"svelte-french-toast": "^1.0.3",
 		"svelte-preprocess": "^5.0.4"
 	}
